@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/myStyle.css">
+    <script src="./src/slideshow.js"></script>
+
+    <title>Victoria Olivieri Portfolio</title>
+
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+</style>
+
+<body>
+
+    <!--Wrapper for the entire page-->
+    <div id="wrapper">
+
+        <!--Navigation menu-->
+        <nav>
+            <ul class="menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html#aboutMe">About Me</a></li>
+                <li><a href="./index.html#resume">Resume</a></li>
+                <li><a href="./index.html#project">Projects</a></li>
+                <li><a href="#form">Contact Me</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <!--Information and images of the Track or treat application-->
+            <!--Project Section w/ subsection projects-->
+            <div id="project">
+                <section id="projects">
+                    <div class="projNum">
+                        <div id="project3">
+                            <span class="pName">
+                                <h2>Track or Treat App</h2>
+                                <!--slideshow-->
+                                <div class="slideshow-container">
+
+                                    <div class="mySlides fade">
+                                        <div class="numbertext">1 / 6</div>
+                                        <img src="./media/Olivieri_P4_Poster.png" style="width:400px">
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <div class="numbertext">2 / 6</div>
+                                        <img src="./media/Olivieri_p4_HomeScreen.png" style="width: 350px">
+
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <div class="numbertext">3 / 6</div>
+                                        <img src="./media/Olivieri_p4_Map1.png" style="width:350px">
+
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <div class="numbertext">4 / 6</div>
+                                        <img src="./media/Olivieri_p4_TreatInventory.png" style="width:350px">
+
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <div class="numbertext">5 / 6</div>
+                                        <img src="./media/Olivieri_p4_TreatTrade.png" style="width:350px">
+
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <div class="numbertext">6 / 6</div>
+                                        <img src="./media/trackOrTreatLogo.png" style="width:350px">
+
+                                    </div>
+
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                                </div>
+                                <br>
+
+                                <div style="text-align:center">
+                                    <span class="dot" onclick="currentSlide(1)"></span>
+                                    <span class="dot" onclick="currentSlide(2)"></span>
+                                    <span class="dot" onclick="currentSlide(3)"></span>
+                                    <span class="dot" onclick="currentSlide(4)"></span>
+                                    <span class="dot" onclick="currentSlide(5)"></span>
+                                    <span class="dot" onclick="currentSlide(6)"></span>
+                                </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+
+        <!--Footer contains contact form and phone number-->
+        <footer>
+            <h2>Contact Me Here: </h2>
+            <div id="form">
+                <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSeTq_a2rJ8V4pBQRZp72Mkb_CJ3vDm7ruCk-AnP_xSNmdAAqQ/viewform?embedded=true"></iframe>
+            </div>
+            <div class="myEmail">
+                <!--<a href= mailto:vro6068@rit.edu?subject="HTML link">Email: vro6068@rit.edu</a>-->
+            </div>
+            <div class="phone">
+                <a href="tel:+6314566746">Phone Number: 631-456-6746</a>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
