@@ -1,0 +1,23 @@
+{
+  "name": "olivieri-portfolio",
+  "version": "1.0.0",
+  "engines:" {
+    "node":"17.3.1",
+    "npm":"8.3.0"
+  },
+  "description": "portfolio",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"No Tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vickyrose456/portfolio.git"
+  },
+  "author": "Victoria Olivieri",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/vickyrose456/portfolio/issues"
+  },
+  "homepage": "https://github.com/vickyrose456/portfolio#readme"
+}
